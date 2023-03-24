@@ -7,7 +7,7 @@ type Props = {
 };
 
 const ExamplePage: NextPage<Props> = (
-  _props: InferGetStaticPropsType<typeof getStaticProps>
+  props: InferGetStaticPropsType<typeof getStaticProps>
 ) => {
   const { t } = useTranslation("common");
 

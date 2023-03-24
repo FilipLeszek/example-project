@@ -10,7 +10,7 @@ type Props = {
 };
 
 const ExamplePage: NextPage<Props> = (
-  _props: InferGetServerSidePropsType<typeof getServerSideProps>
+  props: InferGetServerSidePropsType<typeof getServerSideProps>
 ) => {
   return <></>;
 };

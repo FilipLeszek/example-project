@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Home: NextPage<Props> = (
-  _props
+  props
 ) => {
   return <></>;
 }
